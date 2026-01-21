@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ethereum Wallet Explorer</title>
+</head>
+<body>
+
+  <h2>Ethereum Wallet Explorer</h2>
+
+  <input
+    id="address"
+    placeholder="Enter Ethereum address"
+    size="45"
+  />
+  <button onclick="explore()">Explore</button>
+
+  <p id="type"></p>
+  <p id="balance"></p>
+  <p id="txCount"></p>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.9.0/dist/ethers.umd.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
